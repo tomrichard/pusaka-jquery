@@ -1,5 +1,5 @@
 # Pusaka jQuery Plugins
 
-documentation [docs](https://tomrichard.github.io/pusaka-jquery/docs/)
+documentation [docs](https://tomrichard.github.io/pusaka-jquery/)
 
-- Pusaka/form [docs](https://tomrichard.github.io/pusaka-jquery/docs/form)
+- Pusaka/form [docs](https://tomrichard.github.io/pusaka-jquery/form)
