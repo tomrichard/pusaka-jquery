@@ -2,5 +2,7 @@
 
 documentation [docs](https://tomrichard.github.io/pusaka-jquery/)
 
-- Pusaka/form [docs](https://tomrichard.github.io/pusaka-jquery/form)
-- Pusaka/datatable [docs](https://tomrichard.github.io/pusaka-jquery/datatable)
+| Plugins 		   | Link 				 |
+|:-----------------|---------------------|
+| Pusaka\form      | goto [documentation](https://tomrichard.github.io/pusaka-jquery/form) |
+| Pusaka\datatable | goto [documentation](https://tomrichard.github.io/pusaka-jquery/datatable) |
