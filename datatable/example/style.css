@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	width: 1024px;
+	margin:auto;
+	padding-top: 50px;
+}
+.field {
+	width: 100%;
+	margin-bottom: 4px;
+}
+.field label {
+	display: inline-block;
+	width: calc(30% - 5px);
+}
+.field input[type="text"], 
+.field input[type="tel"],
+.field input[type="email"],
+.field input[type="number"],
+.field select,
+.field textarea {
+	display: inline-block;
+	width: calc(70% - 5px);
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	height: 30px;
+}
+.field textarea {
+	height: 150px;
+}
+.field [readonly] {
+	background: #EEE;
+}
+.col-md-4 {
+	display: inline-block;
+	width: calc(calc(100% / 12 * 4) - 4px);
+}
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.table.table-bordered {
+	border: 1px solid #CCC;
+}
+.table.table-bordered td,
+.table.table-bordered th {
+	border: 1px solid #CCC;
+	padding: 10px;	
+}
+.table [action="advsearch"] {
+	width: 100%;
+}
