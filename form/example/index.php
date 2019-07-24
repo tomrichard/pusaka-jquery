@@ -5,7 +5,7 @@
 
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript" src="tinymce/tinymce.min.js"></script>
-<script type="text/javascript" src="form.min.js"></script>
+<script type="text/javascript" src="form.js"></script>
 
 <style type="text/css">
 * {
@@ -123,6 +123,8 @@ $('form[form-id="form"]').pusakaForm({
 		}
 	},
 	action 	: ['form', 'http', (function(form, http) {
+
+		form.button('save').hide();
 
 		// Action : Populate
 		//-----------------------------
